@@ -1,0 +1,23 @@
+
+.btn_main{
+    color: #090909;
+    text-align: center;
+    transform-style: preserve-3d;
+    background-color: #f7b058;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 26px 38px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.111em;
+    text-decoration: none;
+    border: none;
+    transition: background-color .3s, transform .3s, color .3s;
+}
+.btn_main:hover, .btn_main:active {
+    color: #090909;
+    background-color: #F08200;
+    transform: translate(0px,-5px);
+    
+}
+ 

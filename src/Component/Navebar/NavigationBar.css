@@ -1,0 +1,51 @@
+.header_wraper {
+    background-color: #0e1c20;
+    border-bottom: 1px solid #f0ece8;
+    padding-top: 46px;
+    padding-bottom: 45px;
+}
+#navbarScrollingDropdown{
+    color: white;
+    font-size: 19px;
+}
+.navbar-brand a{
+    margin-right: 20vw;
+    color: white;
+}
+.nav-link a{
+    color: #f5f3e8;
+    font-size: 19px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 32px;
+
+}
+.nav-link a:focus, .nav-link a:hover, .navbar-brand a:hover , #navbarScrollingDropdown:hover{
+    color:#C3944F ;
+}
+.navbar-nav{
+    text-align: center;
+}
+
+.Navbar_toggle{
+    background-color: whitesmoke;
+    border:3px solid #F7B058 ;
+    border-radius: 5px;
+}
+
+.btn_main .small{
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.sub_project a{
+    color: #0e1c20;
+}
+.sub_project a:hover{
+    color: #F7B058;
+}
+.sub_project:active{
+    background-color: lightgray;
+    color: #F08200;
+}

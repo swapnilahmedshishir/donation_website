@@ -1,0 +1,295 @@
+/* footer css */
+
+.footer_div{
+    margin-top: 0px;
+    background-color: #0E1C20;
+    height: 900px;
+}
+hr {
+    border: none; 
+    height: 2px; 
+    background-color: #ffffff; 
+    margin: 10px 0; 
+  }
+
+.footer_area{
+   color: #ffffff;
+   padding-top: 19vh;
+}
+
+.frist_footer_area{
+  padding-bottom: 100px;
+}
+.last_footer_area{
+  padding-top: 60px;
+  /* padding-bottom: 10px; */
+}
+.copyRightText{
+  text-align: center;
+  margin-top: 10px;
+}
+/* Adress css */
+.address{
+  text-align: justify;
+  padding: 5px;
+}
+.address ul li{
+  color: #EEEAE4;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+}
+
+.address ul li:first-child{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+/* menu css */
+   .footer_menu ul li a{
+    text-decoration: none;
+    color: #EEEAE4;
+    font-size: 19px;
+    transition: color ease-in 0.3s;
+   }
+
+   .footer_menu ul li a:hover{
+    color: #97733e;
+   }
+
+   .footer_menu ul li {
+    margin-bottom: 21px;
+    font-weight: 500;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+   }
+
+   .footer_menu ul li:first-child{
+    font-size: 20px;
+    margin-bottom: 31px;
+    font-weight: 700;
+    color:white ;
+  }
+
+
+/* footer card css */
+.Card_container { 
+  border-radius: 14px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 50px 20px;
+  color: black;
+  background-color: #daa95f;
+}
+.cardText{
+  padding: 5px 15px;
+}
+
+.cardText h3 {
+    color: #090909;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: Nunito, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.417em;
+
+}
+
+.DonateNowBtn {
+  color: #ffffff;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  transform-style: preserve-3d;
+  background-color: #080806;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 26px 38px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.111em;
+  text-decoration: none;
+  transition: 0.3s ease-in-out, color .3s , background-color .3s, transform .3s,;
+  &:hover {
+   transform: scale(1.04);
+  }
+}
+
+.DonateNowBtn:hover{
+ color: #daa95f;
+}
+
+.HelpBtn{
+  color: black;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  transform-style: preserve-3d;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  padding: 26px 38px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.111em;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: color .4s, background-color .4s, transform .4s,;
+  &:hover {
+   transform: scale(1.04);
+  }
+}
+
+.HelpBtn:hover{
+  background-color: black ;
+  color: white;
+}
+
+
+/* socail media Group */
+
+.socailMedia ul {
+  position: relative;
+  display: flex;
+  /* transform: rotate(-25deg) skew(25deg); */
+  transform-style: preserve-3d;
+}
+.socailMedia ul li {
+ position: relative;
+ list-style: none;
+ width: 50px;
+ height: 50px;
+ margin: 0px 20px;
+}
+.socailMedia ul li:before{
+ content: '';
+ position: absolute;
+ bottom: -10px;
+ left: -5px;
+ width: 100%;
+ height: 10px;
+ background: #2a2a2a;
+ transform-origin: top;
+ transform: skewX(-41deg);
+}
+.socailMedia ul li:after{
+ content: '';
+ position: absolute;
+ top:5px;
+ left: -9px;
+ width: 9px;
+ height: 100%;
+ background: #2a2a2a;
+ transform-origin: right;
+ transform: skewY(-49deg);
+}
+.socailMedia ul li span{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: flex !important;
+ background: #2a2a2a;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-size: 30px !important;
+ transition: 1.5s ease-out;
+}
+.socailMedia ul li:hover span {
+ z-index: 1000;
+ transition: .3s;
+ color: #fff;
+ box-shadow: -1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.socailMedia ul li:hover span:nth-child(3){
+ transform: translate(20px, -20px);
+ opacity: .6;
+}
+.socailMedia ul li:hover span:nth-child(2){
+ transform: translate(10px, -10px);
+ opacity: .4;
+}
+.socailMedia ul li:hover span:nth-child(1){
+ transform: translate(0px, 0px);
+ opacity: .2;
+}
+.socailMedia ul li:nth-child(1):hover span{
+ background: #4064AC !important;
+}
+.socailMedia ul li:nth-child(2):hover span{
+ background: #1C9CEA !important;
+}
+.socailMedia ul li:nth-child(3):hover span{
+ background: #F27A1D !important;
+}
+.socailMedia ul li:nth-child(4):hover span{
+ background: #0072b1 !important;
+}
+
+
+/* responsive footer */
+/* phone */
+@media only screen and (max-width: 600px) {
+  .footer_div{
+    height: 1550px;
+  }
+  .footer_menu{
+    margin-top: 40px;
+  }
+  .Card_container{
+    margin-top: 40px;
+  }
+  .copyRightText{
+    margin-bottom: 40px;
+  }
+  
+  .socailMedia{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) {
+  .footer_div{
+    height: 1550px;
+  }
+  .footer_menu{
+    margin-top: 40px;
+  }
+  .Card_container{
+    margin-top: 40px;
+  }
+  .copyRightText{
+    margin-bottom: 40px;
+  }
+  
+  .socailMedia{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+/* destop */
+@media only screen and (min-width: 768px) {
+  
+  .footer_div{
+    height: 900px;
+}
+}
+
+@media (min-width: 770px) and (max-width: 1000px) {
+  .footer_div{
+    height: 1200px;
+}
+}

@@ -1,0 +1,37 @@
+.from_Style{
+    padding: 62px 40px;
+}
+.from_text{
+    margin-bottom: 50px;
+}
+
+/* .from_text input[type="text" ]::placeholder {
+    color: #6e6e6e;
+    font-size: 16px;
+    font-style: italic;
+} */
+
+.from_text label {
+        color: #090909;
+        margin-bottom: 12px;
+        font-weight: 700;
+        display: block;
+  
+}
+.from_text input {
+    min-height: 72px;
+    color: #6e6e6e;
+    background-color: #fff;
+    border: 1px solid #f0ece8;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 20px;
+    transition: box-shadow .3s, color .3s, border-color .3s;
+    box-shadow: 0 2px 12px rgba(43, 43, 43, .06);
+}
+
+.message_btn{
+    margin-top: 40px;
+}

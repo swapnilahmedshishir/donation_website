@@ -1,0 +1,334 @@
+.aboutUs_frist_section{
+    height: 400px;
+    padding-top: 40px;
+    text-align: center;
+    display: block;    
+}
+.abotus_text h1{
+    padding-top: 3px;
+    color: rgb(5, 4, 4);
+}
+.about_donate_btn,.about_help_btn{
+    margin-right: 10px; color: #090909;
+    text-align: center;
+    transform-style: preserve-3d;
+    background-color: #F08200;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 26px 38px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.111em;
+    text-decoration: none;
+    border: none;
+    transition: background-color .3s, transform .3s, color .3s;
+}
+
+.about_donate_btn:hover, .about_donate_btn:active {
+    color: #090909;
+    background-color: #f7b058;
+    transform: translate(0px,-5px);
+    
+}
+
+.about_help_btn:hover, .about_help_btn:active {
+    color: #090909;
+    background-color: #f7b058;
+    transform: translate(0px,-5px);
+    
+}
+
+/* section 1  */
+.about_build{
+    padding: 60px 25px;
+}
+.subtitle{
+    text-align: left;
+    padding-left: 0px;
+    font-size: 16px;
+}
+
+
+.subtitleBorderLineImage{
+margin-top: -22px;
+height: 40px;
+}
+
+.title{
+    margin-top: 10px;
+    color: #090909;
+}
+.title_wraper p{
+    color: #6d6f70;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.readMore_btn{
+    margin-top: 30px;
+}
+
+.build_video_thumbile_image{
+    height: auto;
+    width: auto;    
+    opacity: 0.7;
+    position: relative;
+}
+.build_video_thumbile_image img{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;  
+}
+.build_video_thumbile_image img:hover{
+   
+}
+
+.build_video_thumbile_image .palyBtn {
+    margin: 0;
+  position: absolute;
+  /* z-index: 1; */
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  color: #eea73d;
+  background-color: rgb(252, 251, 247);
+  border-radius: 50%;
+  transition: color 265ms ease-in;
+}
+.youtbe_video {
+    position: relative;    
+    aspect-ratio: 15/10;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.05),
+                0 5px 4px rgba(0,0,0,0.05);
+    cursor: pointer;
+  }
+.youtbe_video img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;  
+    object-fit: cover;
+    z-index: -1;
+    transition: 0.4s;
+  }
+.youtbe_video:hover img{
+    transform: scale(1.15);
+}
+
+.build_video_thumbile_image .palyBtn:hover{
+    color: #F08200;
+}
+
+
+
+/* mission */
+.Misson{
+     padding-top: 30px;
+     padding-bottom: 80px;
+    background-color: #FEF9F2;
+}
+
+.aboutUs_misson{
+    text-align: center;
+   padding: 0px 0px;
+}
+
+.aboutUs_misson h4{
+    color: #f7b058;
+}
+.aboutUs_misson h2{
+  color: #090909;
+}
+
+
+/* who_we_are */
+.our_foundation{
+  padding: 60px 0;
+}
+
+.we_are_image{
+  margin-top: 60px;
+  opacity: 1;
+}
+.who_we_are{
+  padding: 0px 10px;
+}
+
+.who_we_are .subtitle{
+  color: #f7b058;
+    text-align: center;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.who_we_are .title{
+  color: #090909;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: Nunito, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.381em;
+}
+
+.who_we_are .description{
+  text-align: justify;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+/* Meet Team */
+.team_meet{
+    background-color:#FFF3E0 ;
+    padding : 100px 0px;
+}
+.team_section{
+    
+    
+}
+
+.meet_team_section_top .subtitle{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+/* horizontal */
+.heading_line_top {
+    max-width: 200px;
+    min-height: 4px;
+    margin: 0 auto;
+    color: #0e1c20;
+    background-color: #f7b058;
+    border-radius: 99px;
+    margin-bottom: 24px;
+  }
+
+ /* hover part  */
+.meet_team_section_bottom{
+    padding-top: 50px;
+}
+.meet_team_section_bottom .responsive_image {
+    /* width: 100%; */
+    max-width: 140px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
+.team_member{
+    padding: 5px;
+    text-align: center; 
+    cursor: pointer;   
+}
+.hover_text{
+    padding-top: 15px;
+}
+
+.hover_text h4{
+    
+    font-weight: 600;
+}
+
+.hover_text h5{
+    margin: 15px 0px;
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+       
+    .aboutUs_misson {
+        /* padding: 40px 390px; */
+        margin-bottom: 20px;
+    }    
+    .build_video_thumbile_image {
+        margin-top: 40px;
+    }
+    
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    
+    .build_video_thumbile_image {
+        margin-top: 50px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .aboutUs_frist_section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .abotus_text h1 {
+        padding-top: 3px;
+        padding-right: 20px;
+        color: rgb(5, 4, 4);
+    }
+    
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .aboutUs_frist_section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .aboutUs_misson {
+        padding: 40px 250px;
+    }
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .aboutUs_frist_section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .aboutUs_misson {
+        padding: 40px 390px;
+    }
+
+}
+

@@ -1,0 +1,47 @@
+
+.artical_card {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.badge_secondary_topic {
+    box-shadow: none;
+    color: #090909;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e0dfdd;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-size: 19px;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+.artical_card_more{
+    font-size: 19px;
+}
+.artical_card:hover  #artical_card_text ,.artical_card:hover  .artical_card_more{
+    color: #FF9C08;
+    transition:color .3s;
+}
+.artical_card:hover  .artical_card_more span{
+    margin-left: 5px;
+}
+
+
+#artical_card_img{
+    max-width: 100%;
+    height: 300px;
+}
+.badge_secondary_date{
+   
+}
+#artical_card_body{
+    padding:48px 48px 40px;
+}
+#artical_card_text{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: 700;
+}

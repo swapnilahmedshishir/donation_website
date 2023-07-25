@@ -1,0 +1,38 @@
+.project_item{
+    margin-bottom: 0px;
+}
+.ProjectAllStyle{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 380px;
+    padding: 60px 40px;
+     border-radius: 10px;
+}
+
+.project_icon{
+    background-color: #f7b058;
+    padding: 33px;   
+    border-radius: 50%;
+    
+}
+.project_icon .icon{
+    font-size: 44px;
+    color: white;
+}
+
+.ProjectAllStyle .title{
+    margin: 30px 0px 20px 0px;
+}
+.ProjectAllStyle .description{
+    padding: 5px 40px;
+    font-size: 19px;
+    color: #6D6F70;
+}
+@media only screen and (max-width: 600px){
+      
+    .project_item{
+        margin-bottom: 20px;
+    }
+
+}
