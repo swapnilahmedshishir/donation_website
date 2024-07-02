@@ -1,9 +1,8 @@
-import React from 'react';
-import '../Footer.css';
+import React from "react";
 
 const Adress = () => {
   return (
-    <div className='address'>
+    <div className="address">
       <ul>
         <li>LOGO</li>
         <li>Company XYZ</li>
@@ -13,7 +12,7 @@ const Adress = () => {
         <li>Email address: info@xyz.com</li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Adress
+export default Adress;
