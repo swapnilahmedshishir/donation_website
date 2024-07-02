@@ -1,7 +1,6 @@
 import React from "react";
 import "./DonateStyle.css";
 import { Col, Container, Row } from "react-bootstrap";
-import "../Button/Button.css";
 const Donate = () => {
   return (
     <div className="donate_container">
